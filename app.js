@@ -26,7 +26,7 @@ const app = express()
 const server = http.createServer(app)
 const io = socketIO(server)
 
-// Middleware para servir archivos estáticos
+//// Middleware para servir archivos estáticos
 app.use(express.static('public'))
 
 // Ruta principal que sirve el archivo HTML
