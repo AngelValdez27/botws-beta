@@ -1,0 +1,2 @@
+# Ignorar el directorio local-chromium en puppeteer-core
+node_modules/puppeteer-core/.local-chromium/
