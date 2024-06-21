@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhatsApp Bot</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./socketApp.js" defer></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>WhatsApp Bot</h1>
+    <div id="qr-container">
+      <h2>Escanea el código QR</h2>
+      <div id="spinner">
+        <div class="half-circle-spinner">
+          <p>Espera un momento...</p>
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+        </div>
+      </div>
+      <img id="qr-code" src="" alt="Código QR" />
+    </div>
+    <div id="status"></div>
+  </body>
+</html>
