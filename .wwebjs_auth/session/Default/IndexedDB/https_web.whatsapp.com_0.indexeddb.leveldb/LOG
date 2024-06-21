@@ -1,20 +1,18 @@
-2024/06/19-14:52:20.355 3ab0 Reusing MANIFEST D:\Ang_e\projects\bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/19-14:52:20.356 3ab0 Recovering log #915
-2024/06/19-14:52:20.478 3ab0 Reusing old log D:\Ang_e\projects\bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000915.log 
-2024/06/19-14:52:20.478 3ab0 Delete type=2 #910
-2024/06/19-14:52:20.478 3ab0 Delete type=2 #911
-2024/06/19-14:52:20.478 3ab0 Delete type=2 #914
-2024/06/19-14:52:20.478 3ab0 Delete type=2 #917
-2024/06/19-14:53:00.846 3ab0 Level-0 table #923: started
-2024/06/19-14:53:00.910 3ab0 Level-0 table #923: 1014416 bytes OK
-2024/06/19-14:53:00.932 3ab0 Delete type=0 #915
-2024/06/19-14:53:01.909 1154 Compacting 1@1 + 3@2 files
-2024/06/19-14:53:02.045 1154 Generated table #924@1: 18189 keys, 2180287 bytes
-2024/06/19-14:53:02.148 1154 Generated table #925@1: 11176 keys, 2179004 bytes
-2024/06/19-14:53:02.279 1154 Generated table #926@1: 46029 keys, 1889501 bytes
-2024/06/19-14:53:02.279 1154 Compacted 1@1 + 3@2 files => 6248792 bytes
-2024/06/19-14:53:02.299 1154 compacted to: files[ 0 0 3 0 0 0 0 ]
-2024/06/19-14:53:02.300 1154 Delete type=2 #918
-2024/06/19-14:53:02.300 1154 Delete type=2 #919
-2024/06/19-14:53:02.300 1154 Delete type=2 #920
-2024/06/19-14:53:02.300 1154 Delete type=2 #923
+2024/06/21-16:58:42.891 b14 Reusing MANIFEST D:\Ang_e\projects\botws-beta\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/21-16:58:42.892 b14 Recovering log #996
+2024/06/21-16:58:42.900 b14 Reusing old log D:\Ang_e\projects\botws-beta\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000996.log 
+2024/06/21-16:58:42.900 b14 Delete type=2 #998
+2024/06/21-16:58:44.062 78c Compacting 1@1 + 5@2 files
+2024/06/21-16:58:44.305 78c Generated table #999@1: 35972 keys, 2216803 bytes
+2024/06/21-16:58:44.566 78c Generated table #1000@1: 3422 keys, 2156360 bytes
+2024/06/21-16:58:44.828 78c Generated table #1001@1: 30104 keys, 2240192 bytes
+2024/06/21-16:58:45.131 78c Generated table #1002@1: 61100 keys, 2200794 bytes
+2024/06/21-16:58:45.427 78c Generated table #1003@1: 81053 keys, 1733920 bytes
+2024/06/21-16:58:45.427 78c Compacted 1@1 + 5@2 files => 10548069 bytes
+2024/06/21-16:58:45.458 78c compacted to: files[ 0 0 5 0 0 0 0 ]
+2024/06/21-16:58:45.458 78c Delete type=2 #990
+2024/06/21-16:58:45.458 78c Delete type=2 #991
+2024/06/21-16:58:45.458 78c Delete type=2 #992
+2024/06/21-16:58:45.459 78c Delete type=2 #993
+2024/06/21-16:58:45.459 78c Delete type=2 #994
+2024/06/21-16:58:45.459 78c Delete type=2 #997
