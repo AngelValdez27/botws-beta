@@ -1,2 +1,3 @@
-2024/06/17-17:41:45.349 3cc0 Creating DB D:\Ang_e\projects\bot\.wwebjs_auth\session\Default\shared_proto_db\metadata since it was missing.
-2024/06/17-17:41:45.455 3cc0 Reusing MANIFEST D:\Ang_e\projects\bot\.wwebjs_auth\session\Default\shared_proto_db\metadata/MANIFEST-000001
+2024/06/19-14:41:19.013 1f38 Reusing MANIFEST D:\Ang_e\projects\bot\.wwebjs_auth\session\Default\shared_proto_db\metadata/MANIFEST-000001
+2024/06/19-14:41:19.020 1f38 Recovering log #3
+2024/06/19-14:41:19.020 1f38 Reusing old log D:\Ang_e\projects\bot\.wwebjs_auth\session\Default\shared_proto_db\metadata/000003.log 

@@ -27,12 +27,23 @@ const server = http.createServer(app)
 const io = socketIO(server)
 
 //// Middleware para servir archivos estáticos
-app.use(express.static('public'))
+app.use(express.static('/public'))
 
 // Ruta principal que sirve el archivo HTML
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html')
 })
+
+/* // Ruta para servir otros recursos estáticos como CSS y JS
+// Ejemplo para CSS
+app.get('/src/styles/styles.css', (req, res) => {
+  res.sendFile(__dirname + '/src/styles/styles.css')
+})
+
+// Ejemplo para JS
+app.get('/js/socketApp.js', (req, res) => {
+  res.sendFile(__dirname + '/js/socketApp.js')
+}) */
 
 console.log('Sin sesión guardada')
 // When the client received QR-Code
@@ -120,6 +131,7 @@ io.on('connection', socket => {
 const initializeClient = () => {
   client = new Client({
     authStrategy: new LocalAuth(),
+
     webVersionCache: {
       type: 'remote',
       remotePath:
@@ -191,6 +203,6 @@ const isWorkingHours = () => {
 //TODO: MESSAGE FLOW ENDS
 
 // Iniciar el servidor
-server.listen(3000, () => {
-  console.log('Servidor iniciado en http://localhost:3000')
+server.listen(3001, () => {
+  console.log('Servidor iniciado en http://localhost:3001')
 })

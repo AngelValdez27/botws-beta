@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(235, 235, 235);
+}
+
 .half-circle-spinner, .half-circle-spinner * {
     box-sizing: border-box;
   }
