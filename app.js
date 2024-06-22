@@ -20,6 +20,8 @@ const workStartTime = moment('09:00', 'HH:mm') // Hora de inicio del horario lab
 const workEndTime = moment('17:18', 'HH:mm') // Hora de fin del horario laboral (ejemplo: 17:00)
 
 const SESSION_FILE_PATH = './.wwebjs_auth/session'
+// Use PORT provided in environment or default to 3000
+const port = process.env.PORT || 3001
 
 // Inicializar Express y el servidor HTTP
 const app = express()
@@ -34,7 +36,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html')
 })
 
-/* // Ruta para servir otros recursos estáticos como CSS y JS
+// Ruta para servir otros recursos estáticos como CSS y JS
 // Ejemplo para CSS
 app.get('/src/styles/styles.css', (req, res) => {
   res.sendFile(__dirname + '/src/styles/styles.css')
@@ -43,7 +45,7 @@ app.get('/src/styles/styles.css', (req, res) => {
 // Ejemplo para JS
 app.get('/js/socketApp.js', (req, res) => {
   res.sendFile(__dirname + '/js/socketApp.js')
-}) */
+})
 
 console.log('Sin sesión guardada')
 // When the client received QR-Code
@@ -207,6 +209,6 @@ const isWorkingHours = () => {
 //TODO: MESSAGE FLOW ENDS
 
 // Iniciar el servidor
-server.listen(3001, () => {
+server.listen(port, '0.0.0.0', () => {
   console.log('Servidor iniciado en http://localhost:3001')
 })
