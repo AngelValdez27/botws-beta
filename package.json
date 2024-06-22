@@ -16,6 +16,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "apt-get update && apt-get install -y wget ca-certificates fonts-liberation libappindicator3-1 libatk-bridge2.0-0 libatk1.0-0 libcups2 libxcomposite1 libxdamage1 libxrandr2 xdg-utils --no-install-recommends",
     "start": "node app.js"
   },
   "keywords": [],
