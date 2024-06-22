@@ -131,6 +131,10 @@ io.on('connection', socket => {
 const initializeClient = () => {
   client = new Client({
     authStrategy: new LocalAuth(),
+    puppeteer: {
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    },
 
     webVersionCache: {
       type: 'remote',

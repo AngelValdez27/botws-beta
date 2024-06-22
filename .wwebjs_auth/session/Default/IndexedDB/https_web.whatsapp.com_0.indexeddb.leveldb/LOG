@@ -1,3 +1,22 @@
-2024/06/22-17:16:29.145 3650 Reusing MANIFEST D:\Ang_e\projects\botws-beta\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/22-17:16:29.146 3650 Recovering log #1065
-2024/06/22-17:16:29.272 3650 Reusing old log D:\Ang_e\projects\botws-beta\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001065.log 
+2024/06/22-17:20:11.106 47fc Reusing MANIFEST D:\Ang_e\projects\botws-beta\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/22-17:20:11.107 47fc Recovering log #1065
+2024/06/22-17:20:11.287 47fc Reusing old log D:\Ang_e\projects\botws-beta\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001065.log 
+2024/06/22-17:20:18.980 47ac Level-0 table #1076: started
+2024/06/22-17:20:19.084 47ac Level-0 table #1076: 1073840 bytes OK
+2024/06/22-17:20:19.105 47ac Delete type=0 #1065
+2024/06/22-17:20:20.008 47fc Compacting 1@1 + 6@2 files
+2024/06/22-17:20:20.173 47fc Generated table #1077@1: 52991 keys, 2243677 bytes
+2024/06/22-17:20:20.281 47fc Generated table #1078@1: 3097 keys, 2153944 bytes
+2024/06/22-17:20:20.407 47fc Generated table #1079@1: 21476 keys, 2224523 bytes
+2024/06/22-17:20:20.563 47fc Generated table #1080@1: 23563 keys, 2165446 bytes
+2024/06/22-17:20:20.774 47fc Generated table #1081@1: 107753 keys, 2260813 bytes
+2024/06/22-17:20:20.929 47fc Generated table #1082@1: 76191 keys, 1645195 bytes
+2024/06/22-17:20:20.929 47fc Compacted 1@1 + 6@2 files => 12693598 bytes
+2024/06/22-17:20:20.948 47fc compacted to: files[ 0 0 6 0 0 0 0 ]
+2024/06/22-17:20:20.949 47fc Delete type=2 #1068
+2024/06/22-17:20:20.949 47fc Delete type=2 #1069
+2024/06/22-17:20:20.949 47fc Delete type=2 #1070
+2024/06/22-17:20:20.949 47fc Delete type=2 #1071
+2024/06/22-17:20:20.949 47fc Delete type=2 #1072
+2024/06/22-17:20:20.949 47fc Delete type=2 #1073
+2024/06/22-17:20:20.949 47fc Delete type=2 #1076
